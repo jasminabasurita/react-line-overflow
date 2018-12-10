@@ -1,5 +1,5 @@
 # React Line Overflow
-The simple multi-line overflow clamping component we all deserve
+A simple, mostly css solution to multi-line text overflow
 
 ### The Problem:
 The natural inclination when faced with multi-line text overflow is to reach for css's `text-overflow: ellipsis`.
