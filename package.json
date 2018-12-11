@@ -4,6 +4,8 @@
   "description": "A multi-line clamping component for react",
   "main": "build/index.js",
   "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:js": "webpack",
     "build": "npm run lint && npm run build:js",
@@ -25,6 +27,7 @@
     "react": "^15 || ^16"
   },
   "devDependencies": {
+    "all-contributors-cli": "^5.4.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^7.0.0",

@@ -26,7 +26,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/592876?v=4" width="100px;"/><br /><sub><b>Robert Pearce</b></sub>](https://robertwpearce.com)<br />[🤔](#ideas-rpearce "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/12430681?v=4" width="100px;"/><br /><sub><b>Markus Greystone</b></sub>](https://github.com/mgreystone)<br />[🐛](https://github.com/jasminabasurita/react-line-overflow/issues?q=author%3Amgreystone "Bug reports") |
+| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/592876?v=4" width="100px;"/><br /><sub><b>Robert Pearce</b></sub>](https://robertwpearce.com)<br />[🤔](#ideas-rpearce "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/12430681?v=4" width="100px;"/><br /><sub><b>Markus Greystone</b></sub>](https://github.com/mgreystone)<br />[🤔](#ideas-mgreystone "Ideas, Planning, & Feedback") |
 | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
