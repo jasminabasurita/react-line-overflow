@@ -65,7 +65,7 @@ class LineClamp extends Component {
               style={{
                 background: `linear-gradient(to right, rgba(${rgb}, 0), rgba(${rgb}, 1) 50%)`,
                 display: 'flex',
-                'justify-content': 'flex-end',
+                justifyContent: 'flex-end',
                 position: 'absolute',
                 bottom: '0',
                 right: '0',
