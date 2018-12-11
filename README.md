@@ -1,5 +1,5 @@
 # React Line Overflow
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 A simple, mostly css solution to multi-line text overflow
 
 ### The Problem:
@@ -26,8 +26,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") |
-| :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/592876?v=4" width="100px;"/><br /><sub><b>Robert Pearce</b></sub>](https://robertwpearce.com)<br />[🤔](#ideas-rpearce "Ideas, Planning, & Feedback") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
