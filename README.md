@@ -1,4 +1,5 @@
 # React Line Overflow
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 A simple, mostly css solution to multi-line text overflow
 
 ### The Problem:
@@ -18,3 +19,15 @@ But css can get us _almost_ all the way there! A simple `overflow: hidden` hides
   - Appending an ellipsis for clarity.
 
 Really all that's needed at this point is to grab the calculated line-height and multiply it by our desired number of lines and float a container with ellipsis over the end of our text block.
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

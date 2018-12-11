@@ -1,0 +1,23 @@
+{
+  "projectName": "react-line-overflow",
+  "projectOwner": "jasminabasurita",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "jasminabasurita",
+      "name": "Jasmina Jacquelina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4014487?v=4",
+      "profile": "http://jazzy.codes",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    }
+  ]
+}
