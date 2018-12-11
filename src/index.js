@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import cn from './index.scss'
 import { compose, curryN, omit, prop, replace } from 'ramda'
+import { hexToRGB } from './helpers'
 
 const getNumberPixels = compose(Number, replace(/[a-zA-Z]+/, ''))
 const styleProp = curryN(2, compose(getNumberPixels, prop))
@@ -38,9 +38,10 @@ class LineClamp extends Component {
   render() {
     const {
       props: {
+        background = '#fff',
         children,
-        ellipsis = "...",
-        ...rest,
+        ellipsis = '...',
+        ...rest
       },
       state: {
         clamp,
@@ -48,17 +49,30 @@ class LineClamp extends Component {
         lineHeight,
       },
     } = this
+    const rgb = hexToRGB(background)
     return (
       <div
-        className={ cn.clamp }
-        style={{ height: `${containerHeight}px` }}
+        style={{
+          height: `${containerHeight}px`,
+          overflow: 'hidden',
+          position: 'relative',
+        }}
       >
         <div ref={ this.setContextRef } { ...omit(compProps, rest) }>
           { children }
           { clamp &&
             <div
-              style={{ height: `${lineHeight}px` }}
-              className={ cn.ellipsis }>
+              style={{
+                background: `linear-gradient(to right, rgba(${rgb}, 0), rgba(${rgb}, 1))`,
+                display: 'flex',
+                'justify-content': 'flex-end',
+                position: 'absolute',
+                bottom: '0',
+                right: '0',
+                width: '2em',
+                height: `${ lineHeight }px`,
+              }}
+            >
               { ellipsis }
             </div>
           }
@@ -67,6 +81,8 @@ class LineClamp extends Component {
     )
   }
 }
+
+LineClamp.displayName = 'LineClamp'
 
 export default LineClamp
 
