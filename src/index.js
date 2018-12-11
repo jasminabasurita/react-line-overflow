@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { compose, curryN, omit, prop, replace } from 'ramda'
-import { hexToRGB } from './helpers'
+import {
+  getHeight,
+  getLineHeight,
+  hexToRGB,
+  omit,
+} from './helpers'
 
-const getNumberPixels = compose(Number, replace(/[a-zA-Z]+/, ''))
-const styleProp = curryN(2, compose(getNumberPixels, prop))
-const getHeight = styleProp('height')
-const getLineHeight = styleProp('line-height')
 const compProps = [
   'lines',
   'ellipsis',
@@ -63,7 +63,7 @@ class LineClamp extends Component {
           { clamp &&
             <div
               style={{
-                background: `linear-gradient(to right, rgba(${rgb}, 0), rgba(${rgb}, 1))`,
+                background: `linear-gradient(to right, rgba(${rgb}, 0), rgba(${rgb}, 1) 50%)`,
                 display: 'flex',
                 'justify-content': 'flex-end',
                 position: 'absolute',
