@@ -1,11 +1,14 @@
 {
   "name": "react-line-overflow",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A multi-line clamping component for react",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build:js": "webpack",
+    "build": "npm run lint && npm run build:js",
+    "lint": "eslint src/**/*.js --ext .js",
+    "lint:fix": "eslint src/**/*.js --ext .js --fix"
   },
   "keywords": [
     "clamp",
@@ -21,11 +24,7 @@
   "peerDependencies": {
     "react": "^15 || ^16"
   },
-  "dependencies": {
-    "ramda": "^0.26.1"
-  },
   "devDependencies": {
-    "autoprefixer": "^9.4.2",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^7.0.0",
@@ -35,14 +34,11 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "css-loader": "^2.0.0",
-    "eslint": "^5.9.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
     "node-sass": "^4.10.0",
-    "postcss-loader": "^3.0.0",
-    "postcss-easing-gradients": "^3.0.1",
     "react": "^16.6.3",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
