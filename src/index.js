@@ -53,7 +53,7 @@ class LineClamp extends Component {
     return (
       <div
         style={{
-          height: `${containerHeight}px`,
+          maxHeight: `${containerHeight}px`,
           overflow: 'hidden',
           position: 'relative',
         }}
