@@ -2,6 +2,7 @@
 .babelrc
 .eslintignore
 .eslintrc.js
+.npmignore
+CODE_OF_CONDUCT.md
 src
 webpack.config.js
-.npmignore
