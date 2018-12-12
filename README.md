@@ -1,5 +1,7 @@
 # React Line Overflow
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![npm version](https://img.shields.io/npm/v/react-line-overflow.svg)](https://www.npmjs.com/package/react-line-overflow)
+[![npm downloads](https://img.shields.io/npm/dt/react-line-overflow.svg)](https://www.npmjs.com/package/react-line-overflow)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat)](#contributors)
 
 A simple, mostly css solution to multi-line text overflow
 
