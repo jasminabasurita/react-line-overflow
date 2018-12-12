@@ -1,5 +1,6 @@
 .all-contributorsrc
 .babelrc
+.circleci
 .eslintignore
 .eslintrc.js
 .npmignore
