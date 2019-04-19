@@ -25,12 +25,9 @@ export const hexToB = createHexToRGB(4, 6)
 export const hexToRGB = hex =>
   [ hexToR(hex), hexToG(hex), hexToB(hex) ].join(', ')
 
-//getNumberPixels :: String -> Number
-export const getNumberPixels = s => Number(s.replace(/[a-zA-Z]+/, ''))
-
 //styleProp :: String -> Object -> Number
 export const styleProp = prop => styles =>
-  getNumberPixels(styles[prop])
+  parseInt(styles[prop])
 
 //getHeight :: Object -> Number
 export const getHeight = styleProp('height')
@@ -41,7 +38,7 @@ export const getLineHeight = styleProp('line-height')
 //omit :: ([ String ], Object) -> Object
 export const omit = (keys, obj) =>
   Object.keys(obj).reduce((acc, key) =>
-    keys.indexOf(key === -1) && obj[key] !== undefined 
+    keys.indexOf(key) === -1 && obj[key] !== undefined 
       ? Object.assign(acc, { [key]: obj[key] })
       : acc
   , {})
