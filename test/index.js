@@ -107,4 +107,44 @@ describe('LineClamp Component', () => {
     expect(comp.children().first().children().first().props().style.background)
       .to.equal('linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%)')
   })
+
+  it('accepts an optional showEllipsis value when clamp is true', () => {
+    mockGetComputedStyle.returns({ 'line-height': '3px', height: '10px' })
+    const comp = shallow(
+      <LineClamp
+        lines={ 3 }
+        showEllipsis={ false }
+      />
+    )
+    const instance = comp.instance()
+    instance.contextRef = 'mock-context'
+    instance.componentDidMount()
+    comp.update()
+    expect(mockGetComputedStyle.called).to.equal(true)
+    expect(mockGetComputedStyle.calledWith('mock-context')).to.equal(true)
+    expect(comp.state().containerHeight).to.equal(9)
+    expect(comp.state().lineHeight).to.equal(3)
+    expect(comp.state().clamp).to.equal(true)
+    expect(comp.children().first().children().length).to.equal(0)
+  })
+
+  it('accepts an optional showEllipsis value when clamp is false', () => {
+    mockGetComputedStyle.returns({ 'line-height': '3px', height: '6px' })
+    const comp = shallow(
+      <LineClamp
+        lines={ 3 }
+        showEllipsis={ false }
+      />
+    )
+    const instance = comp.instance()
+    instance.contextRef = 'mock-context'
+    instance.componentDidMount()
+    comp.update()
+    expect(mockGetComputedStyle.called).to.equal(true)
+    expect(mockGetComputedStyle.calledWith('mock-context')).to.equal(true)
+    expect(comp.state().containerHeight).to.equal(9)
+    expect(comp.state().lineHeight).to.equal(3)
+    expect(comp.state().clamp).to.equal(false)
+    expect(comp.children().first().children().length).to.equal(0)
+  })
 })

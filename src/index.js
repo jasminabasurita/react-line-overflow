@@ -41,6 +41,7 @@ class LineClamp extends Component {
         background = '#fff',
         children,
         ellipsis = '...',
+        showEllipsis = true,
         ...rest
       },
       state: {
@@ -60,7 +61,7 @@ class LineClamp extends Component {
       >
         <div ref={ this.setContextRef } { ...omit(compProps, rest) }>
           { children }
-          { clamp &&
+          { showEllipsis && clamp &&
             <div
               style={{
                 background: `linear-gradient(to right, rgba(${rgb}, 0), rgba(${rgb}, 1) 50%)`,
