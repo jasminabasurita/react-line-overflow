@@ -108,12 +108,12 @@ describe('LineClamp Component', () => {
       .to.equal('linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%)')
   })
 
-  it('accepts an optional showEllipsis value when clamp is true', () => {
+  it('accepts an optional noEllipsis value when clamp is true', () => {
     mockGetComputedStyle.returns({ 'line-height': '3px', height: '10px' })
     const comp = shallow(
       <LineClamp
         lines={ 3 }
-        showEllipsis={ false }
+        noEllipsis
       />
     )
     const instance = comp.instance()
@@ -128,12 +128,12 @@ describe('LineClamp Component', () => {
     expect(comp.children().first().children().length).to.equal(0)
   })
 
-  it('accepts an optional showEllipsis value when clamp is false', () => {
+  it('accepts an optional noEllipsis value when clamp is false', () => {
     mockGetComputedStyle.returns({ 'line-height': '3px', height: '6px' })
     const comp = shallow(
       <LineClamp
         lines={ 3 }
-        showEllipsis={ false }
+        noEllipsis
       />
     )
     const instance = comp.instance()
