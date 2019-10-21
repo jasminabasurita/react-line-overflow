@@ -36,6 +36,17 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "jesspoemape",
+      "name": "Jessica Poémape",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29049496?v=4",
+      "profile": "https://github.com/jesspoemape",
+      "contributions": [
+        "code",
+        "test",
+        "ideas"
+      ]
     }
   ]
 }
