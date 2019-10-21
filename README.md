@@ -1,7 +1,7 @@
 # React Line Overflow
 [![npm version](https://img.shields.io/npm/v/react-line-overflow.svg)](https://www.npmjs.com/package/react-line-overflow)
 [![npm downloads](https://img.shields.io/npm/dt/react-line-overflow.svg)](https://www.npmjs.com/package/react-line-overflow)
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 A simple, mostly css solution to multi-line text overflow
 
@@ -29,8 +29,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/592876?v=4" width="100px;"/><br /><sub><b>Robert Pearce</b></sub>](https://robertwpearce.com)<br />[🤔](#ideas-rpearce "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/12430681?v=4" width="100px;"/><br /><sub><b>Markus Greystone</b></sub>](https://github.com/mgreystone)<br />[🤔](#ideas-mgreystone "Ideas, Planning, & Feedback") |
-| :---: | :---: | :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/4014487?v=4" width="100px;"/><br /><sub><b>Jasmina Jacquelina</b></sub>](http://jazzy.codes)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jasminabasurita "Code") [🤔](#ideas-jasminabasurita "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/592876?v=4" width="100px;"/><br /><sub><b>Robert Pearce</b></sub>](https://robertwpearce.com)<br />[🤔](#ideas-rpearce "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/12430681?v=4" width="100px;"/><br /><sub><b>Markus Greystone</b></sub>](https://github.com/mgreystone)<br />[🤔](#ideas-mgreystone "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/u/29049496?v=4" width="100px;"/><br /><sub><b>Jessica Poémape</b></sub>](https://github.com/jesspoemape)<br />[💻](https://github.com/jasminabasurita/react-line-overflow/commits?author=jesspoemape "Code") [⚠️](https://github.com/jasminabasurita/react-line-overflow/commits?author=jesspoemape "Tests") [🤔](#ideas-jesspoemape "Ideas, Planning, & Feedback") |
+| :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
