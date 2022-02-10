@@ -46,7 +46,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-react": "^7.11.1",
     "mocha": "^6.2.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-test-renderer": "^15.6.2",
